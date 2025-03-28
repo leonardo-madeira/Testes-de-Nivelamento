@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "6413399a-fa80-4342-99af-ba97203c8440",
+		"name": "Demonstrar Resultado API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43550196",
+		"_collection_link": "https://leonardomadeira.postman.co/workspace/Leonardo-Madeira's-Workspace~c801190d-ddc8-4b78-8e9c-830e919f5c5f/collection/43550196-6413399a-fa80-4342-99af-ba97203c8440?action=share&source=collection_link&creator=43550196"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/buscar?termo=57522360000170",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "saude"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
